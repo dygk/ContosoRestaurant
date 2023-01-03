@@ -1,5 +1,5 @@
-import { DoStuffActionHandler } from "../cardActions/doStuffActionHandler";
-import { HelloWorldCommandHandler } from "../commands/helloworldCommandHandler";
+//import { DoStuffActionHandler } from "../cardActions/doStuffActionHandler";
+//import { HelloWorldCommandHandler } from "../commands/helloworldCommandHandler";
 import { ConversationBot } from "@microsoft/teamsfx";
 import config from "./config";
 
@@ -13,10 +13,10 @@ export const conversationBot = new ConversationBot({
   },
   command: {
     enabled: true,
-    commands: [new HelloWorldCommandHandler()],
+    commands: [],
   },
   cardAction: {
     enabled: true,
-    actions: [new DoStuffActionHandler()],
+    actions: [],
   },
 });
