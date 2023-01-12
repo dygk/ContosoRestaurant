@@ -35,7 +35,7 @@
   "actions": [
     {
       "type": "Action.Execute",
-      "title": "Edit Order",
+      "title": "Edit  Order",
       "verb": "order-edit"
     }
   ]
